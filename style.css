@@ -187,3 +187,22 @@ padding-right:24px;
 .transition-1-s{
     transition:1s;
 }
+
+
+@media (max-width: 700px) {
+    .custom-margin-left {
+      margin-left: 0;
+    }
+    .custom-margin-right {
+      margin-right: 0;
+    }
+  }
+
+  @media (min-width: 700px) {
+  .custom-margin-left {
+    margin-left:-16px;
+    }
+    .custom-margin-right {
+        margin-right:-16px;
+    }
+}
