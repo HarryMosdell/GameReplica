@@ -61,10 +61,7 @@ nav ul li  {
  background-color:rgb(204, 48, 131);
 }
 
-.generic-padding {
-padding-left:48px;
-padding-right:48px;
-}
+
 
 .generic-margin-top-bottom {
     margin-top:96px;
@@ -187,7 +184,10 @@ padding-right:24px;
 .transition-1-s{
     transition:1s;
 }
-
+.generic-padding .row {
+  margin-left: 0;
+  margin-right: 0;
+}
 
 @media (max-width: 700px) {
     .custom-margin-left {
@@ -196,6 +196,24 @@ padding-right:24px;
     .custom-margin-right {
       margin-right: 0;
     }
+
+    .generic-padding {
+padding-left:16px;
+padding-right:16px;
+}
+
+    .padding-mobile-0{
+        padding-left:0px;
+        padding-right:0px;
+    }
+
+.gutter-left{
+    margin-left: -8px;
+}
+
+.gutter-right{
+    margin-right: -8px;
+}
   }
 
   @media (min-width: 700px) {
@@ -205,4 +223,12 @@ padding-right:24px;
     .custom-margin-right {
         margin-right:-16px;
     }
+
+
+
+
+    .generic-padding {
+padding-left:48px;
+padding-right:48px;
+}
 }
