@@ -197,6 +197,7 @@ padding-right:24px;
       margin-right: 0;
     }
 
+    
     .generic-padding {
 padding-left:16px;
 padding-right:16px;
@@ -214,6 +215,14 @@ padding-right:16px;
 .gutter-right{
     margin-right: -8px;
 }
+
+.gutter-left-16px{
+    margin-left:-16px!important;
+}
+
+.gutter-right-16px{
+    margin-right:-16px!important;
+}
   }
 
   @media (min-width: 700px) {
@@ -224,7 +233,7 @@ padding-right:16px;
         margin-right:-16px;
     }
 
-
+   
 
 
     .generic-padding {
