@@ -188,7 +188,10 @@ padding-right:24px;
   margin-left: 0;
   margin-right: 0;
 }
-
+.d{
+    overflow-y: auto!important;   /* ✅ allows scrolling inside */
+  -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+}
 .line-height-40{
     line-height: 40px;
 }
