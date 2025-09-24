@@ -33,7 +33,7 @@ setInterval(()=> {
 
 banner.textContent=titles[index];
 index++;
-if(index>= titles.length-1) {
+if(index>= titles.length) {
     index=0;
 }
 
