@@ -24,7 +24,7 @@ function showText(element) {
  target.classList.toggle("max-height-300");
 }
 
- let titles =['Nitendo Switch 2 In Stock Now!', 'Frasers Plus 2 Pay In 3 Interest free payments!','Borderlands 4 OUT NOW']
+ let titles =['Nintendo Switch 2 In Stock Now!', 'Frasers Plus 2 Pay In 3 Interest free payments!','Borderlands 4 OUT NOW']
  let banner= document.getElementById("banner");
 
 let index=0;
