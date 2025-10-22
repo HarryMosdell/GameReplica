@@ -13,7 +13,7 @@ body {
 }
 @media(max-width:800px){
 main{
- margin-top: calc(172.719px + env(safe-area-inset-top));
+ margin-top: 173px;
 }
 }
 
