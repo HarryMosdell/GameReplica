@@ -4,7 +4,10 @@ html, body {
 body {
     scrollbar-color: rgb(204, 48, 131) #111; /* thumb, track */
 }
-
+body {
+  margin: 0;
+  padding: 0;
+}
 @media(min-width:800px){ 
     main{
     margin-top: 176px;   
