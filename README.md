@@ -1,3 +1,6 @@
 link here 
 
+PLEASE NOTE THIS IS A REPLICA I DO NOT OWN ANY OF THE CONTENT THIS WAS MADE FOR PORTFOLIO PURPOSES 
+
+
 https://harrymosdell.github.io/GameReplica/
