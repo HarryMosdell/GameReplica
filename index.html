@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -30,11 +30,37 @@
     </form>
 </div>
 
-<div class=" d-flex gap-4 gap-md-5 me-4 me-md-0 ms-auto ms-md-0" style=""> <!-- right side of top part of desktop header starts here-->
+<div class=" d-flex gap-4 gap-md-5 me-4 me-md-0 ms-auto ms-md-0 " style=""> <!-- right side of top part of desktop header starts here-->
     <div class="bg-white d-none d-lg-block"> <i  class="fa fa-map-marker icon " ></i></div>
     <div class="bg-white d-none d-lg-block"> <i  class="fa fa-shopping-bag icon" ></i> </div>
     <div class="bg-white"> <i  class="fa fa-heart icon" ></i></div>
-    <div class="bg-white"> <i  class="fa fa-shopping-bag icon" ></i> </div>
+    <div class="bg-white shopping position-relative"> <a href="basket.html"> <i  class="fa fa-shopping-bag icon"></i> 
+     <div class="bg-white position-absolute homepage-shopping-basket-desktop text-black"> 
+       
+    
+        <h3> MY BAG</h1>
+            <div style="background-color: rgb(247, 247, 247);">
+                <p class="fw-bold"> hurry items out of stock soon</p>
+                <p class=""> dont miss out on checkout now</p>
+            </div>
+             <div class="game-i">
+
+             </div>
+
+             <button class="py-2 px-4 mb-3 bg-white white-button text-black d-block w-100 "> View Bag</button>
+             <button class="py-2 px-4 mb-3 purple-color border-0 text-white d-block w-100 "> Checkout Now</button>
+             
+         <div>
+
+            <script>
+             
+            </script>
+         </div>
+        <div>
+          
+        
+    </div>
+     </div> </a></div>
 </div>   <!--right side of top part of desktop end here-->
 
 <div id="toggler" class="flex-column gap-1 d-flex d-lg-none "> <!-- right side of top part of desktop header starts here-->
@@ -218,9 +244,6 @@
       </ul>
     </nav>
   </div>
-  
-
-
 
 <div class="top-banner d-flex " > <!-- changeable text banner starting here-->
     <a id="banner" class="text-decoration-none text-white m-auto">  name game inbound! </a>
@@ -431,9 +454,9 @@
             <div class="px-2 px-md-3 gutter-left h-100">
                 <div class="h-100 d-flex flex-column">
          <div> <img class="w-100" src="https://cdn.media.amplience.net/i/frasersdev/DUALSENSE_LE_ASTROBOT_2.0_BEAUTY_01_CROP_RGB?fmt=auto&upscale=false&w=451&h=451&sm=c&$h-ttl$" alt=""></div>
-          <p class="fw-bold"> PS5 Amazing Limited controller</p>
+          <p class="fw-bold gameText"> PS5 Amazing Limited controller</p>
           <p class="light-grey-text"> dive back into ps5 glory and paradise by purchasing this amazing limited edition controller</p>
-          <button style="margin-top: auto; width:fit-content;" class="py-2 px-4  purple-color border-0 text-white"> Shop Now</button>
+          <button style="margin-top: auto; width:fit-content;" class="py-2 px-4  purple-color border-0 text-white addButton"> Shop Now</button>
         </div>
         </div>
         </div>
@@ -443,9 +466,9 @@
             <div class="px-2 px-md-3 gutter-right h-100 ">
                 <div class="h-100 d-flex flex-column">
                      <div> <img class="w-100" src="https://cdn.media.amplience.net/i/frasersdev/007_first_light_1x1?fmt=auto&upscale=false&w=451&h=451&sm=c&$h-ttl$" alt=""></div>
-                      <p class="fw-bold"> 007 First Light</p>
+                      <p class="fw-bold gameText"> 007 First Light</p>
                       <p class="light-grey-text font-weight-400"> Step into the shadows, uncover hidden secrets, master stealth, and survive the ultimate test of espionage.</p>
-                      <button style="margin-top: auto; width:fit-content;" class="py-2 px-4  purple-color border-0 text-white"> Shop Now</button>
+                      <button style="margin-top: auto; width:fit-content;" class="py-2 px-4  purple-color border-0 text-white addButton"> Shop Now</button>
                     </div>
                     </div>
                     </div>
@@ -456,9 +479,9 @@
                         <div class="px-2 pt-3 px-md-3 pt-md-0 gutter-left h-100">
                             <div class="h-100 d-flex flex-column">
                                  <div> <img class="w-100" src="https://cdn.media.amplience.net/i/frasersdev/super_mario_galaxy_1and2_1x1?fmt=auto&upscale=false&w=451&h=451&sm=c&$h-ttl$" alt=""></div>
-                                  <p class="fw-bold"> Super Mario </p>
+                                  <p class="fw-bold gameText"> Super Mario </p>
                                   <p class="light-grey-text"> Travel the stars with Mario in enhanced versions of these beloved adventures.</p>
-                                  <button style="margin-top: auto; width:fit-content;" class="py-2 px-4  purple-color border-0 text-white"> Shop Now</button>
+                                  <button style="margin-top: auto; width:fit-content;" class="py-2 px-4  purple-color border-0 text-white addButton"> Shop Now</button>
                                 </div>
                                 </div>
                                 </div>
@@ -470,7 +493,7 @@
                                              <div> <img class="w-100" src="https://cdn.media.amplience.net/i/frasersdev/pokemon-z-a-1x1?fmt=auto&upscale=false&w=451&h=451&sm=c&$h-ttl$" alt=""></div>
                                               <p class="fw-bold"> Pokemon Legends </p>
                                               <p class="light-grey-text"> Explore a vast new region, train powerful Pokémon, and shape your own legendary adventure.</p>
-                                              <button style="margin-top: auto; width:fit-content;" class="py-2 px-4  purple-color border-0 text-white"> Shop Now</button>
+                                              <button style="margin-top: auto; width:fit-content;" class="py-2 px-4  purple-color border-0 text-white "> Shop Now</button>
                                             </div>
                                             </div>
                                             </div>
