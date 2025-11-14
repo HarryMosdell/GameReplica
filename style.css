@@ -4,10 +4,7 @@ html, body {
 body {
     scrollbar-color: rgb(204, 48, 131) #111; /* thumb, track */
 }
-body {
-  margin: 0;
-  padding: 0;
-}
+
 @media(min-width:800px){ 
     main{
     margin-top: 176px;   
@@ -16,7 +13,7 @@ body {
 }
 @media(max-width:800px){
 main{
- margin-top: 172.71875px;
+ margin-top:  172.719px;   
 }
 }
 
@@ -64,12 +61,39 @@ nav ul li  {
  background-color:rgb(204, 48, 131);
 }
 
+.homepage-shopping-basket-desktop{
+min-width:300px;
+height:0px;
+right:-10px;
+top:44px;
+opacity:0;
+overflow:hidden;
+transition:1s height;
 
+}
 
+@media(min-width:800px) {
+.shopping:hover .homepage-shopping-basket-desktop {
+opacity:1!important;
+height:630px!important;
+transition:1s height;
+}
+}
 .generic-margin-top-bottom {
     margin-top:96px;
     margin-bottom:96px;
 
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.number_input_border{
+border: 1px solid #ddd;
+overflow: hidden;  
 }
 
 .generic-margin {
@@ -80,7 +104,7 @@ nav ul li  {
     margin-bottom:96px;
 }
 .background-purple{
-    background:#8400d1;;
+    background:#8400d1;
 }
 
 .color-purple{
@@ -88,6 +112,14 @@ nav ul li  {
     color:#8400d1;
 }
 
+.white-button{
+    border:0.5px solid black;
+}
+
+.white-button:hover{
+    background-color:rgb(204, 48, 131)!important;
+    color:white!important;
+}
 
  footer .footer-padding{
     padding-left: 40px;
