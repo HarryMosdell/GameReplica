@@ -1,0 +1,455 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+  </script>
+    <title>Game Replica</title>
+</head>
+<body>
+    <header class="position-fixed w-100 " style="z-index: 60; ">
+    
+        <div style="border-bottom: solid 1px rgb(196, 196, 196);" class="bg-white d-flex top-menu-padding-mobile top-menu-padding-desktop justify-content-md-between align-items-center ">  <!-- top part of header starting here-->
+      
+      
+      <div style="padding-top:10px; padding-bottom:10px;">  <img src="https://upload.wikimedia.org/wikipedia/en/3/38/Game_Retail_Ltd_Logo.webp" alt=""> </div>
+      <div class="d-lg-flex d-none " style="width:604px;"> 
+      
+      
+          <form action="" class="bg-white flex-grow-1" style=" padding-top: 13px; padding-bottom: 13px;  ">
+              <input type="text " class="w-100 " style=" padding-top: 5px; padding-bottom: 5px; " class="" name="" id="">
+          </form>
+      </div>
+      
+      <div class=" d-flex gap-4 gap-md-5 me-4 me-md-0 ms-auto ms-md-0" style=""> <!-- right side of top part of desktop header starts here-->
+          <div class="bg-white d-none d-lg-block"> <i  class="fa fa-map-marker icon " ></i></div>
+          <div class="bg-white d-none d-lg-block"> <i  class="fa fa-shopping-bag icon" ></i> </div>
+          <div class="bg-white"> <i  class="fa fa-heart icon" ></i></div>
+          <div class="bg-white"> <a href="basket.html"> <i  class="fa fa-shopping-bag icon" ></i>  </a></div>
+      </div>   <!--right side of top part of desktop end here-->
+      
+      <div id="toggler" class="flex-column gap-1 d-flex d-lg-none "> <!-- right side of top part of desktop header starts here-->
+          <div style="height:3px; width:25px; background: black;">  </div>
+          <div style="height:3px; width:25px; background: black;">  </div>
+          <div style="height:3px; width:25px; background: black;">  </div>
+      
+      </div>   <!--right side of top part of desktop end here-->
+      
+        </div>  <!-- top part of header end here-->
+      
+      <div style="border-bottom: solid 1px rgb(196, 196, 196);"  class=" line-height-52 bg-white d-lg-block d-none"> <!-- bottom part of header starting here-->
+      <nav>
+       <ul class="generic-padding d-flex justify-content-between fw-bold" style="">
+      <li>Playstation</li>
+      <li>Xbox</li>
+      <li>Nintendo</li>
+      <li>PC</li>
+      <li>Accessories</li>
+      <li>Coming Soon </li>
+      <li>Tech </li>
+      <li>Logo </li>
+      <li>Toys and Games </li>
+      <li>Trading Cards </li>
+      <li>Logo </li>
+      <li>Brands </li>
+      <li style="background-color:  rgb(240, 4, 4);" class="text-white px-3">SALE </li>
+       </ul>
+      </nav>
+      </div> <!-- bottom part of header ending here-->
+      
+      
+      <div  class="d-flex d-lg-none justify-content-center bg-white overflow-x-hidden" >  <!-- mobile form input starting here-->
+      
+      
+          <form action="" class=" w-75" style=" padding-top: 13px; padding-bottom: 13px;  ">
+              <input type="text " class="w-100 " style=" padding-top: 5px; padding-bottom: 5px; " class="" name="" id="">
+          </form>
+      </div> <!-- mobile form input ending here-->
+      
+      <div id="mobile-nav" class="position-fixed bg-white left-100 w-100" style="top:173px; bottom:0; transition:1.5s; overflow-y:auto; -webkit-overflow-scrolling:touch;">
+          <nav>
+            <ul class="px-0 m-0 list-unstyled">
+        
+              <li class="d-flex line-height-40 px-4 py-3 border-top-border-bottom-grey">
+                <div style="width:40px"><img class="w-100" src="https://www.game.co.uk/images/menus/game-app-menu-playstation.jpg" alt=""></div>
+                <span class="px-2 fw-bold">Playstation</span>
+                <span class="ms-auto">&gt;</span>
+              </li>
+        
+              <li class="d-flex line-height-40 px-4 py-3 border-bottom-grey">
+                <div style="width:40px"><img class="w-100" src="https://www.game.co.uk/images/menus/game-app-menu-xbox.jpg" alt=""></div>
+                <span class="px-2 fw-bold">Xbox</span>
+                <span class="ms-auto">&gt;</span>
+              </li>
+        
+              <li class="d-flex line-height-40 px-4 py-3 border-bottom-grey">
+                <div style="width:40px"><img class="w-100" src="https://www.game.co.uk/images/menus/game-app-menu-switch.jpg" alt=""></div>
+                <span class="px-2 fw-bold">Nintendo</span>
+                <span class="ms-auto">&gt;</span>
+              </li>
+        
+              <li class="d-flex line-height-40 px-4 py-3 border-bottom-grey">
+                <div style="width:40px"><img class="w-100" src="https://www.game.co.uk/images/menus/game-app-menu-pc.jpg" alt=""></div>
+                <span class="px-2 fw-bold">PC</span>
+                <span class="ms-auto">&gt;</span>
+              </li>
+        
+              <li class="d-flex line-height-40 px-4 py-3 border-bottom-grey">
+                <div style="width:40px"><img class="w-100" src="https://www.game.co.uk/images/menus/game-app-menu-accessories.jpg" alt=""></div>
+                <span class="px-2 fw-bold">Accessories</span>
+                <span class="ms-auto">&gt;</span>
+              </li>
+        
+              <li class="d-flex line-height-40 px-4 py-3 border-bottom-grey">
+                <div style="width:40px"><img class="w-100" src="https://www.game.co.uk/images/menus/game-app-menu-comingsoon.jpg" alt=""></div>
+                <span class="px-2 fw-bold">Coming Soon</span>
+                <span class="ms-auto">&gt;</span>
+              </li>
+        
+              <li class="d-flex line-height-40 px-4 py-3 border-bottom-grey">
+                <div style="width:40px"><img class="w-100" src="https://www.game.co.uk/images/menus/game-app-menu-tech.jpg" alt=""></div>
+                <span class="px-2 fw-bold">Tech</span>
+                <span class="ms-auto">&gt;</span>
+              </li>
+        
+              <li class="d-flex line-height-40 px-4 py-3 border-bottom-grey">
+                <div style="width:40px"><img class="w-100" src="https://www.game.co.uk/images/menus/game-app-menu-lego.jpg" alt=""></div>
+                <span class="px-2 fw-bold">Lego</span>
+                <span class="ms-auto">&gt;</span>
+              </li>
+        
+              <li class="d-flex line-height-40 px-4 py-3 border-bottom-grey">
+                <div style="width:40px"><img class="w-100" src="https://www.game.co.uk/images/menus/game-app-menu-toys.jpg" alt=""></div>
+                <span class="px-2 fw-bold">Toys and Games</span>
+                <span class="ms-auto">&gt;</span>
+              </li>
+        
+              <li class="d-flex line-height-40 px-4 py-3 border-bottom-grey">
+                <div style="width:40px"><img class="w-100" src="https://www.game.co.uk/images/menus/game-app-menu-tradingcards.jpg" alt=""></div>
+                <span class="px-2 fw-bold">Trading Cards</span>
+                <span class="ms-auto">&gt;</span>
+              </li>
+        
+              <li class="d-flex line-height-40 px-4 py-3 border-bottom-grey">
+                <div style="width:40px"><img class="w-100" src="https://www.game.co.uk/images/menus/game-app-menu-brands.jpg" alt=""></div>
+                <span class="px-2 fw-bold">Brands</span>
+                <span class="ms-auto">&gt;</span>
+              </li>
+        
+              <li class="d-flex line-height-40 px-4 py-3 bg-red fw-bold">
+                Sales
+              </li>
+        
+              <li class="line-height-40 px-4 py-3 light-grey border-bottom-grey">
+                  <div class="d-flex">
+                  <span onclick="showText(this)" target=".Account-text" class="px-2 fw-bold">Account</span>
+                  <span onclick="showText(this)" target=".Account-text" class="ms-auto">+</span>
+                  </div>
+                  <div class="" >
+                      <p class="px-2 Account-text max-height-0 mb-0"> content</p>
+                  </div>
+                </li>
+      
+                <li class="d-flex line-height-40 px-4 py-3 light-grey border-bottom-grey">
+                  <span class="px-2 fw-bold">Wish list</span>
+                </li>
+      
+                <li class="d-flex line-height-40 px-4 py-3 light-grey border-bottom-grey">
+                  <span class="px-2 fw-bold">Store Finder</span>
+                </li>
+      
+      
+                <li class="d-flex line-height-40 px-4 py-3 light-grey border-bottom-grey">
+                  <span class="px-2 fw-bold">Careers</span>
+                  
+                </li>
+      
+                
+      
+                <li class="line-height-40 px-4 py-3 light-grey border-bottom-grey">
+                  <div class="d-flex">
+                  <span onclick="showText(this)" target=".customer-Service-text" class="px-2 fw-bold">Customer Service</span>
+                  <span onclick="showText(this)" target=".customer-Service-text" class="ms-auto">+</span>
+                  </div>
+                  <div class="" >
+                      <p class="px-2 customer-Service-text max-height-0 mb-0"> content</p>
+                  </div>
+                </li>
+      
+                <li class="line-height-40 px-4 py-3 light-grey border-bottom-grey">
+                  <div class="d-flex">
+                  <span onclick="showText(this)" target=".company-Information-text" class="px-2 fw-bold">Company Information</span>
+                  <span onclick="showText(this)" target=".company-Information-text" class="ms-auto">+</span>
+                  </div>
+                  <div class="" >
+                      <p class="px-2 company-Information-text max-height-0 mb-0"> content</p>
+                  </div>
+                </li>
+      
+                <li class="line-height-40 px-4 py-3 light-grey border-bottom-grey">
+                  <div class="d-flex">
+                  <span onclick="showText(this)" target=".About-Information-text" class="px-2 fw-bold">About</span>
+                  <span onclick="showText(this)" target=".About-Information-text" class="ms-auto">+</span>
+                  </div>
+                  <div class="">
+                      <p class="px-2 About-Information-text max-height-0 mb-0"> content</p>
+                  </div>
+                </li>
+      
+                <li class="line-height-40 px-4 py-3 light-grey border-bottom-grey">
+                  <div class="d-flex">
+                  <span onclick="showText(this)" target=".GBP-text" class="px-2 fw-bold">£ GBP</span>
+                  <span onclick="showText(this)" target=".GBP-text" class="ms-auto">+</span>
+                  </div>
+                  <div class="" >
+                      <p class="px-2 GBP-text max-height-0 mb-0"> content</p>
+                  </div>
+                </li>
+               
+            </ul>
+          </nav>
+        </div>
+        
+      
+      
+      
+      <div class="top-banner d-flex " > <!-- changeable text banner starting here-->
+          <a id="banner" class="text-decoration-none text-white m-auto">  name game inbound! </a>
+       <style>
+        button{
+           background-color:rgb(204, 48, 131);
+           color:white;
+           border:0;
+           margin-right:10px;
+           padding:8px;
+        }
+       </style>
+          
+          </div> <!-- changeable text banner ending here-->
+      </header>
+   
+    
+        <main style="background-color: #f7f7f7;">
+            <section>
+            <div class="pt-3" >
+            
+        
+        
+                <div class="container-fluid"> 
+                    <div class="row"> 
+                         <div class="col-lg-8 px-0"> 
+                            <div class="px-3 ps-md-4 pe-md-2" >
+                                <div class="bg-white px-4 py-3" style="border-bottom: 2px solid #e7ebed;">
+                                      <h5 class="fw-bold mb-0"> My Bag</h5>
+                                     </div>
+                                
+                                     <div class="bg-white px-4 py-3 mt-3">
+                                        <p class="fw-bold mb-0"> Hurry! Items in bag aren't reserved! <span class="fw-normal"> Don't miss out and checkout now! </span></p>
+                                       </div>
+
+<div id="cart">
+
+
+
+    
+</div>
+
+
+<div class="bg-white px-4 py-3 mt-3">
+    <p class="fw-bold mb-0"> Cards go here</p>
+   </div>
+</div>
+</div>
+
+ <div class="col-lg-4 px-0"> 
+    <div class="ps-2 pe-4">
+
+        <div class="bg-white px-4 py-3" style="border-bottom: 2px solid #e7ebed;">
+            <h5 class="fw-bold mb-0"> Order Summary</h5>
+           </div>
+
+           <div class="bg-white p-3 d-flex justify-content-between" >
+            <h5 class="item_count" class="fw-bold mb-0"> amount of items</h5>
+            <h5 class="price_upper" class="fw-bold mb-0"> price </h5>
+           </div>
+
+           <div class="bg-white p-3 d-flex justify-content-between" >
+            <h5 class="fw-bold mb-0 "> Total</h5>
+            <h5 class="fw-bold mb-0 price_lower"> </h5>
+           </div>
+
+           <div class="bg-white p-3 d-flex justify-content-between" >
+            <input class="flex-grow-1 me-3 p-2 text-black border-0" style="background-color:#e7eaec;" type="text" placeholder="Apply Code Here">
+            <button class="bg-black me-0 px-4"> Apply </button>
+           </div>
+
+</div>
+</div>
+    </div>
+
+</div>
+</div>
+
+</main>
+
+</section>
+
+
+   </main>
+
+
+
+
+
+<script>
+ 
+
+function renderBasket () {
+     cart = document.getElementById('cart');
+     items = JSON.parse(localStorage.getItem('items'));
+     total=0;
+
+    cart.innerHTML = ''; // Clear the basket first
+
+    if(!items || items.length === 0) {
+ const noItemsText=document.createElement('p');
+ const totalText=document.createElement('p');
+  noItemsText.innerText="no items in the basket";
+  cart.appendChild(noItemsText);
+  totalText.innerText=total;
+    }
+
+   else {
+
+    items.forEach(item => {
+
+    itemTotal=item.price* item.qty;
+    total= total +itemTotal;
+
+
+    let cartContent= `      
+              
+                
+                
+                       <div class="bg-white px-4 py-3 mt-4">
+                        <div class="d-flex flex-wrap">
+                <div class="col-lg-2 col-6">
+                <img class="w-100" src="${item.img}" alt="">
+                </div>
+                
+                <div class="col-lg-4 px-4  col-6">   
+                    <p class="fw-bold"> Product</p> 
+                    <p> ${item.name}</p> 
+                 
+                    <div class="mt-3">  <i  class="fa fa-heart icon me-2" style="font-size:13px;" ></i>  <span> Move to wishlist </span> </div>
+                  
+                    <div class="mt-3">  <i data-target="${item.id}" class="remove fa fa-trash-o me-2" style="font-size:18px;" ></i>  <span class="remove" data-target="${item.id}"> Remove </span> </div>
+                
+                </div>
+                <div class="col-lg-4 col-3 ">
+                    <p class="mb-0"> Price </p>
+                    <p class="fw-bold"> £${item.price}</p> 
+                    </div>
+                <div class="col-lg-2 col-3">
+                    <p class="mb-0"> total </p>
+                    <p class="fw-bold"> £${itemTotal}</p>  </div>
+                </div>
+                
+                <div class="d-flex col-lg-2 bg-black col-6 text-black number_input_border mt-3">
+                    <button class="bg-white me-0 text-black decrease" data-target="${item.id}">-</button>
+              
+                <input type="number" value=${item.qty} style="min-width:0px;" class="border-0 text-center"> </input>
+              
+                <button class="me-0 bg-white text-black increase" data-target="${item.id}">+</button>
+
+                </div>
+                </div>
+
+                        
+                    
+                   
+                `;
+                cart.insertAdjacentHTML('afterbegin', cartContent);
+                
+              
+   });
+   
+   
+   }
+
+ 
+
+
+ totalText=document.createElement('p');
+ totalText.innerText='£' + total;
+ totalText.style.fontWeight = 'bold';
+ cart.appendChild(totalText);
+
+ 
+ document.querySelector('.price_upper').textContent='£'+ total;
+  
+ document.querySelector('.price_lower').textContent='£'+ total;
+
+}
+
+cart.addEventListener('click', (e)=> {
+if(e.target.classList.contains('increase')) {
+   increaseQty(e.target.getAttribute('data-target'));
+}
+
+if(e.target.classList.contains('decrease')) {
+   decreaseQty(e.target.getAttribute('data-target'));
+}
+
+if(e.target.classList.contains('remove')) {
+   removeItem(e.target.getAttribute('data-target'));
+}
+
+});
+
+function increaseQty(id) {
+
+let item= items.find(i => i.id  ==id) 
+qty= item.qty++;
+localStorage.setItem('items',  JSON.stringify(items)); 
+renderBasket();
+}
+
+function decreaseQty(id) {
+
+let item= items.find(i => i.id  ==id) 
+if(item.qty>1){
+qty= item.qty--;
+localStorage.setItem('items',  JSON.stringify(items)); 
+}
+
+renderBasket();
+}
+
+function removeItem(id) {
+
+  let updatedItems= items.filter(i => i.id !=id  ); 
+  items= updatedItems;
+  localStorage.setItem('items',  JSON.stringify(items)); 
+   renderBasket();
+}
+renderBasket();
+
+
+window.addEventListener('pageshow', renderBasket);
+
+
+
+
+    </script>
+
+</body>
+</html>
