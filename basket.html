@@ -366,7 +366,7 @@ function renderBasket () {
                 <div class="d-flex col-lg-2 bg-black col-6 text-black number_input_border mt-3">
                     <button class="bg-white me-0 text-black decrease" data-target="${item.id}">-</button>
               
-                <input type="number" value=${item.qty} style="min-width:0px;" class="border-0 text-center"> </input>
+                <input type="number" value=${item.qty} style="min-width:0px;" class="border-0 text-center" readonly> 
               
                 <button class="me-0 bg-white text-black increase" data-target="${item.id}">+</button>
 
@@ -403,6 +403,7 @@ function renderBasket () {
 cart.addEventListener('click', (e)=> {
 if(e.target.classList.contains('increase')) {
    increaseQty(e.target.getAttribute('data-target'));
+
 }
 
 if(e.target.classList.contains('decrease')) {
