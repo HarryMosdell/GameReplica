@@ -176,7 +176,7 @@ function addToBasket(id) {
       render_basket();
   }
   else {
-      items.push(gameToAdd);
+      items.push({ ...gameToAdd, qty: 1 });
       render_basket();
   }
 
